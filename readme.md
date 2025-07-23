@@ -4,6 +4,7 @@
 
 このツールは、Unityエディタ上で選択したGameObjectに`AvatarPoseSystemExtraBone`コンポーネントを簡単に追加・設定するためのエディタ拡張です。
 `VRCPhysBone`が設定されているGameObjectに対して、その`rootTransform`を`AvatarPoseSystemExtraBone`の`rootTransform`に自動で設定します。
+アバターや洋服のPhysBoneが、"AvatarDynamics"といった名前のGameObject内にひとまとめになっている場合に便利です。
 
 ## インストール方法
 
